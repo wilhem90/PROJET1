@@ -26,7 +26,7 @@ body, html {
 .logo-1 {
     width: 150px;
     height: 60px;
-    background: url(/PROJETO-LANDING/imagens/logo1.png) no-repeat center center;
+    background: url(/imagens/logo1.png) no-repeat center center;
     background-size: 100% auto;
     float: left;
 }
@@ -34,7 +34,7 @@ body, html {
 .logo-2 {
     height: 60px;
     width: 160px;
-    background: url(/PROJETO-LANDING/imagens/logo2.png) no-repeat center center;
+    background: url(/imagens/logo2.png) no-repeat center center;
     background-size: 100% auto;
     float: right;
     
@@ -58,6 +58,6 @@ body, html {
 
     .logo-1, .logo-2 {
         float: none;
-        margin: 10px 0px;
+        margin-top: 5px;
     }
 }
