@@ -40,6 +40,13 @@ body, html {
     
 }
 
+.bg {
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/imagens/bg-form.jpg);
+}
+
 
 @media screen and (max-width: 515px) {
     
