@@ -28,7 +28,7 @@ body, html {
 	float: left;
 	width: 150px;
 	height: 60px;
-	background-image: url("/logo1.png");
+	background-image: url("/imagens/logo1.png");
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -39,7 +39,7 @@ body, html {
 	float: right;
 	width: 160px;
 	height: 60px;
-	background-image: url('/logo2.png');
+	background-image: url('/imagens/logo2.png');
 	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -55,7 +55,7 @@ section.cover-form {
     height: 500px;
     background-position: center;
     background-size: cover;
-    background-image: url('/bg-form.jpg');
+    background-image: url('/imagens/bg-form.jpg');
 }
 
 .form-container {
@@ -65,7 +65,7 @@ section.cover-form {
     height: 110%;
     position: relative;
     top: -5%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.21);
 }
 .form-container h2 {
     font-weight: normal;
@@ -73,6 +73,24 @@ section.cover-form {
     color: black;
     font-size: 18px;
     background-color: rgb(234, 236, 239);
+}
+
+.form-container form {
+    margin-top: 8px;
+    padding: 15px;
+}
+
+.form-container label {
+    font-size: 13px;
+    color: #525252;
+}
+
+.form-container input[type=text]{
+    width: 100%;
+    border: 1px solid ccc;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 10px;
 }
 
 
