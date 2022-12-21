@@ -130,15 +130,22 @@ section.cover-form {
 }
 
 section.chamada {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     padding: 40px 0px;
-    text-align: center;
+    align-items: center;
     background-color: gray;
 }
 
+
 section.chamada h2 {
-    display: inline-block;
+    width: 96%;
+    max-width: 500px;
+    text-align: center;
     color: white;
     font-size: 30px;
+    font-weight: normal;
 }
 
 @media screen and (max-width: 515px) {
