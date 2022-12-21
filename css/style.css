@@ -132,13 +132,13 @@ section.cover-form {
 section.chamada {
     padding: 40px 0px;
     text-align: center;
+    background-color: gray;
 }
 
 section.chamada h2 {
     display: inline-block;
     color: white;
     font-size: 30px;
-    background-color: gray;
 }
 
 @media screen and (max-width: 515px) {
