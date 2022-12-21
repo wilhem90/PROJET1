@@ -1,68 +1,63 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto 01</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="/css/style.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<meta charset="description" content="Conteúdo do meu site.">
+	<meta charset="keywords" content="palavras,separadas,por,virgula">
+	<meta charset="author" content="Guilherme" />
+	<meta charset="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-        
-            <!-- <div> -->
-                <div class="logo-1"></div> <!--logo-1-->
-            <!-- </div> -->
-            <!-- <div> -->
-                <div class="logo-2"></div>
-            <!-- </div> -->
-            <div class="clear"></div> <!-- clear -->
-        
-        </div><!--container-->
-    </header> <!-- header -->
 
-    <section class="cover-form">
-        <div class="contaier bg">
-            <div class="form-container">
-                <h2>PODE ACREDITAR, POR DENTRO É AINDA MAIS BONITO.</h2>
-                <form action="#" method="post">
-                    
-                    <div class="form-wrapper">
-                        <div><label for="idnome">*Seu nome: </label><input type="text" name="nome" id="idnome" placeholder="Seu nome completo"></div>
+<header>
+	<div class="container">
+		<div><div class="logo-1"></div><!--logo-1--></div>
+		<div><div class="logo-2"></div><!--logo-2--></div>
+		<div class="clear"></div><!--clear-->
+	</div><!--container-->
+</header>
 
-                    <div class="form-wrapper">
-                        <div><label for="idemail">*Seu e-mail: </label><input type="text" name="nome" id="idemail" placeholder="Seu e-mail"></div>
+<section class="cover-form">
+	<div class="container bg">
+		<div class="form-container">
+			<h2>PODE ACREDITAR, POR DENTRO É AINDA MAIS BONITO.</h2>
+			<form>
+				<div class="form-wraper">
+					<p>Nome Completo</p>
+					<input type="text" name="nome" required placeholder="Nome">
+				</div><!--form-wraper-->
 
-                    <div class="form-wrapper">
-                        <div><label for="idtelefone">*Seu telefone: </label><input type="text" name="telefone" id="idtelefone" placeholder="Seu nome completo"></div>
-                    </div>
+				<div class="form-wraper">
+					<p>E-mail</p>
+					<input type="text" name="email" required placeholder="E-mail">
+				</div><!--form-wraper-->
 
-                    
-                    <div class="btn-submit">
-                        <div class="form-wrapper">
-                            <input type="submit" value="enviar" name="acao">
-                        </div>
-                        
-                    </div>
+				<div class="form-wraper">
+					<p>Telefone</p>
+					<input type="text" name="telefone" required placeholder="Telefone">
+				</div><!--form-wraper-->
 
-                    <div class="campos-obs">
-                        <div class="form-wrapper">
-                            <p>*Campos Obrigatórios</p>
-                        </div>
-                        
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section>
+				<div class="form-wraper">
+					<input type="submit" name="acao" value="Enviar">
+				</div><!--form-wraper-->
+				<div class="form-wraper">
+					<p>* Campos Obrigatórios</p>
+				</div><!--form-wraper-->
+			</form>
+		</div><!--form-container-->
+	</div><!--container-->
+</section><!--cover-form-->
 
-    <section class="chamada">
-        <div class="containary">
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos vitae soluta asperiores quas fuga placeat? Veniam non vel iusto quos iste nemo voluptatibus molestias soluta eum. Voluptas dicta obcaecati aperiam?</h2>
-        </div>
-    </section>
+<section class="chamada">
+	<div class="container">
+	<div><h2>Minha chamada para o empreendimento</h2></div>
+	<div><p>Alguma mensagem para a chamada</p></div>
+	</div><!--container-->
+</section><!--chamada-->
+
+
 
 </body>
 </html>
