@@ -65,7 +65,7 @@ section.cover-form {
     height: 110%;
     position: relative;
     top: -5%;
-    background-color: rgba(255, 255, 255, 0.21);
+    background-color: rgba(255, 255, 255, 0.463);
 }
 .form-container h2 {
     font-weight: normal;
@@ -83,6 +83,7 @@ section.cover-form {
 .form-container label {
     font-size: 13px;
     color: #525252;
+    font-weight: bolder;
 }
 
 .form-container input[type=text]{
@@ -90,6 +91,38 @@ section.cover-form {
     border: 1px solid ccc;
     height: 45px;
     line-height: 45px;
+    padding-left: 10px;
+}
+
+.form-wrapper:not(:first-child) {
+    margin-top: 25px;
+}
+
+.btn-submit, .campos-obs {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.form-container input[type=submit] {
+    width: 80%;
+    background-color: #033c50;
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+    height: 50px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+
+.form-wrapper .campos-obs {
+    margin-top: 20px;
+    width: 100%;
+    text-align: left;
+    font-size: 1em;
+    font-weight: bold;
     padding-left: 10px;
 }
 
