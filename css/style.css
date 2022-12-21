@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 *{
     margin: 0px;
     padding: 0px;
@@ -58,6 +60,7 @@ section.cover-form {
     background-size: cover;
     background-image: url('/imagens/bg-form.jpg');
     background-repeat: no-repeat;
+    border: none;
 }
 
 .form-container {
@@ -66,6 +69,7 @@ section.cover-form {
     width: 400px;
     height: 110%;
     position: relative;
+    z-index: 2;
     top: -5%;
     box-shadow: 2px 2px 10px black;
     background-color: rgba(255, 255, 255, 0.463);
@@ -129,22 +133,36 @@ section.cover-form {
     padding-left: 10px;
 }
 
-section.chamada {
+.containary {
     width: 100%;
-    display: flex;
+    display:flex;
     flex-direction: column;
-    padding: 40px 0px;
     align-items: center;
-    background-color: gray;
+    margin: 0px 2%;
+    background-color: rgb(185, 31, 31);
+    border: none;
 }
 
+section.chamada {
+    z-index: 1;
+    width: 96%;
+    position: relative;
+    top: -50px;
+    text-align: center;
+    display: inline-block;
+}
+
+section.chamada .containary {
+    padding: 50px 0px;
+
+}
 
 section.chamada h2 {
     width: 96%;
-    max-width: 500px;
-    text-align: center;
+    display: inline-block;
+    max-width: 700px;
     color: white;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: normal;
 }
 
